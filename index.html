@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Test Technique Intégration Yomoni</title>
+    <meta name="description" content="Test Technique Intégration Yomoni" />
+    <meta name="author" content="Yomoni" />
+
+    <link rel="icon" href="/favicon.ico" />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <a class="header__brand" href="#"
+          ><img src="/img/header_brand.svg" alt="header brand"
+        /></a>
+        <div class="spacer"></div>
+        <ul class="header__nav">
+          <li class="header__nav__item"><a href="#">Accueil</a></li>
+          <li class="header__nav__item">
+            <a class="active" href="#">Qui sommes nous ?</a>
+          </li>
+          <li class="header__nav__item"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="spacer"></div>
+
+    <!-- main -->
+    <main class="main">
+      <div class="container">
+        <div class="main__section">
+          <h1>Qui sommes nous ?</h1>
+          <p>
+            Investir votre argent intelligemment. Ne plus avoir à y penser.
+            Préparer <a href="#">votre retraite</a>. Penser à l’avenir de votre
+            famille. Autant de raisons de se faire bien accompagner. Vous qui
+            êtes aussi au clair sur ce que vous voulez, n’attendez vous pas la
+            même chose de l’autre côté ?
+          </p>
+          <ul>
+            <li>Assurance-vie, compte-titres, PEA ou PER.</li>
+            <li>25 000 clients</li>
+            <li>400 millions d’euros d’encours sous gestion.</li>
+          </ul>
+          <button class="btn btn--main">Contacter Nous</button>
+        </div>
+
+        <div class="main__spacer"></div>
+
+        <div class="main__section">
+          <div class="card">
+            <h3 class="card__title">Notre équipe dirigeante</h3>
+            <p>
+              Que vous souhaitiez être autonome ou accompagné(e), nos
+              conseillers financiers sont toujours disponibles.
+            </p>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Nos investisseurs</h3>
+            <p>
+              Le Crédit Mutuel ARKEA et Weber Investissement nous accompagnent.
+            </p>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Nos régulateurs</h3>
+            <p>
+              Notre activité est régulièrement contrôlée par les autorités de
+              surveillance françaises.
+            </p>
+            <p id="toggleableText">
+              <b>AMF :</b> L’Autorité des marchés financiers (AMF) est le
+              gendarme de la finance. Yomoni est la seule société de gestion en
+              ligne agréée par l’AMF.<br /><br />
+              <b>ACPR :</b> L’Autorité de contrôle prudentiel et de résolution
+              (ACPR) contrôle les activités des sociétés et intermédiaires
+              d’assurance, dont Yomoni fait partie.
+            </p>
+            <a class="card__trigger" href="#">
+              <span id="toggleTextBtn">En savoir +</span>
+              <!-- <span>En savoir -</span> -->
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
